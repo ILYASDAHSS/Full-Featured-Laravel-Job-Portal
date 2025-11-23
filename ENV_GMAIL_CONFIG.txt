@@ -1,0 +1,16 @@
+# Gmail SMTP Configuration
+# Copy these lines to your .env file
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=your_email@gmail.com
+MAIL_PASSWORD=your_16_character_app_password
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=your_email@gmail.com
+MAIL_FROM_NAME="LaraGigs"
+
+# Replace:
+# - your_email@gmail.com with your actual Gmail address
+# - your_16_character_app_password with the app password you generated from Google
+
